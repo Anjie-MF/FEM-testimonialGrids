@@ -224,40 +224,40 @@ main {
     body {
         width: 100%;
         margin: 0 auto;
-        outline: 1px solid red;
     }
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px 30px;
         grid-template-areas:
-            "testimonial-1 testimonial-2 testimonial-3"
-            "testimonial-4 testimonial-5 testimonial-3";
-        max-width: 1300px;
-        margin: 0 auto;
-        gap: 20px;
+            "testimonial-1 testimonial-1 testimonial-2 testimonial-3"
+            "testimonial-4 testimonial-5 testimonial-5 testimonial-3";
     }
 
     .testimonial--violet {
         grid-area: testimonial-1;
+        */
     }
 
     .testimonial--grey {
         grid-area: testimonial-2;
+
     }
 
-    .testimonial--far-right {
-        grid-area: testimonial-3;
+    .testimonial--right {
+        grid-column: 4;
+        grid-row: span 2;
+        border: 5px solid red;
     }
 
     .testimonial--white {
         grid-area: testimonial-4;
+        background-color: yellow;
     }
 
     .testimonial--navy {
         grid-area: testimonial-5;
     }
-
-
 }
