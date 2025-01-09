@@ -25,7 +25,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [Here's how I did it!!](https://github.com/Anjie-MF/FEM-testimonialGrids)
-- Live Site URL: [See what I did!]()
+- Live Site URL: [See what I did!](https://anjie-mf.github.io/FEM-testimonialGrids/)
 
 ## My process
 
